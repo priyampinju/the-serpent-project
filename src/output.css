@@ -573,8 +573,8 @@ video {
   position: absolute;
 }
 
-.bottom-\[151px\] {
-  bottom: 151px;
+.bottom-\[1px\] {
+  bottom: 1px;
 }
 
 .right-\[141px\] {
@@ -637,10 +637,6 @@ video {
   width: 593px;
 }
 
-.w-\[824px\] {
-  width: 824px;
-}
-
 .max-w-\[1120px\] {
   max-width: 1120px;
 }
@@ -686,16 +682,8 @@ video {
   padding-left: 15px;
 }
 
-.pl-\[18px\] {
-  padding-left: 18px;
-}
-
 .pr-\[15px\] {
   padding-right: 15px;
-}
-
-.pr-\[30px\] {
-  padding-right: 30px;
 }
 
 .pt-\[22px\] {
@@ -704,6 +692,10 @@ video {
 
 .pt-\[291px\] {
   padding-top: 291px;
+}
+
+.pt-\[21px\] {
+  padding-top: 21px;
 }
 
 .text-center {
@@ -773,19 +765,27 @@ video {
   font-weight: 500;
   font-style: normal;
   color: white;
+  background-image: url("./images/banner-bg.png");
+}
+
+.header1 {
+  background: url("./images/banner-bg.png") center;
 }
 
 .header-buttons > * {
   padding: 7.5px 15px;
 }
 
-.header {
-  background: url("./images/banner-bg.png") center center no-repeat;
+/* .header { */
+
+/* background: url("./images/banner-bg.png") center center no-repeat; */
+
+/* background-image: url("./images/banner-bg.png");
   background-size: cover;
   position: relative;
-}
+} */
 
-.banner::after {
+/* .banner::after {
   content: "";
   background: url(./images/banner-bg.png) center center no-repeat;
   left: 0;
@@ -794,10 +794,11 @@ video {
   height: 582.57px;
   position: absolute;
   z-index: 1;
-}
+} */
 
 .banner .banner-img img {
   width: 593px;
   height: 565px;
   object-fit: contain;
+  z-index: 1;
 }

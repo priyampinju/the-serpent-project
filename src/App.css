@@ -8,19 +8,24 @@
   font-weight: 500;
   font-style: normal;
   color: white;
+  background-image: url("./images/banner-bg.png");
+}
+.header1 {
+  background: url("./images/banner-bg.png") center;
 }
 
 .header-buttons > * {
   padding: 7.5px 15px;
 }
 
-.header {
-  background: url("./images/banner-bg.png") center center no-repeat;
+/* .header { */
+/* background: url("./images/banner-bg.png") center center no-repeat; */
+/* background-image: url("./images/banner-bg.png");
   background-size: cover;
   position: relative;
-}
+} */
 
-.banner::after {
+/* .banner::after {
   content: "";
   background: url(./images/banner-bg.png) center center no-repeat;
   left: 0;
@@ -29,10 +34,11 @@
   height: 582.57px;
   position: absolute;
   z-index: 1;
-}
+} */
 
 .banner .banner-img img {
   width: 593px;
   height: 565px;
   object-fit: contain;
+  z-index: 1;
 }

@@ -19,7 +19,9 @@ const Banner = () => {
             More Info
           </a>
         </div>
-        <div className="banner-img absolute bottom-[151px] w-[593px] right-[141px]">
+        <div className="banner-img absolute bottom-[1px] w-[593px] right-[141px]">
+          {" "}
+          {/* bottom 151px*/}
           <img src={Venom} className="h-29" />
         </div>
       </div>
