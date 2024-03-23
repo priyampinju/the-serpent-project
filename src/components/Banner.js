@@ -3,7 +3,7 @@ import Venom from "../images/Venom.png";
 
 const Banner = () => {
   return (
-    <div className="banner pt-[291px] pb-[533p] font-Mulish ">
+    <div className="banner pt-[291px] pb-[533px] font-Mulish ">
       <div className="container ">
         <div className="banner-content max-w-[1120px] ml-[160px]">
           <h1 className="text-[89px] uppercase text-white mb-[40px] font-black leading-banner-content ">
