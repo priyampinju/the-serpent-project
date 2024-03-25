@@ -29,7 +29,7 @@ const Header = () => {
             <img src={Discord} className="h-[60px]" />
           </div>
         </div>
-        <Banner />
+        {/* <Banner /> */}
       </div>
     </div>
   );
