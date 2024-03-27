@@ -3,10 +3,10 @@ import Venom from "../images/Venom.png";
 
 const Banner = () => {
   return (
-    <div className="banner pt-[291px] pb-[533px] font-Mulish">
+    <div className="banner font-Mulish mr-[105px] ml-[105px] pl-[15px]">
       <div className="container ">
-        <div className="banner-content max-w-[1120px] ml-[160px] ">
-          <h1 className="text-[89px] uppercase text-white mb-[40px] font-black leading-banner-content ">
+        <div className="banner-content max-w-[100%]  ">
+          <h1 className="text-[68px] uppercase text-white mb-[40px] font-black leading-banner-content ">
             Welcome to the Nest
           </h1>
           <p className="font-extrabold text-[30px] text-white mb-[40px] font-DM leading-banner-p">
@@ -19,10 +19,10 @@ const Banner = () => {
             More Info
           </a>
         </div>
-        <div className="banner-img absolute bottom-[1px] w-[593px] right-[141px]">
+        <div className="banner-img absolute bottom--7 w-[593px] right-[10px]">
           {" "}
           {/* bottom 151px*/}
-          {/* <img src={Venom} className="h-29" /> */}
+          <img src={Venom} className="h-29 " />
         </div>
       </div>
     </div>

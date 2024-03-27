@@ -9,11 +9,7 @@
   font-style: normal;
   color: white;
   background-image: url("./images/banner-bg.png");
-  object-fit: contain;
 }
-/* .header1 { */
-/* background: url("./images/banner-bg.png") center; */
-/* } */
 
 .header-buttons > * {
   padding: 7.5px 15px;
